@@ -59,7 +59,7 @@ else
         document.getElementById("uph").innerHTML="**Please Fill only number charcter not allowed ";
         return false;  
     }
-    if(mnumber.length!=10)
+    if((mnumber.length!=10) || (mnumber.length>10))
     {
         document.getElementById("uph").innerHTML="**Please Fill valid number (10 digit number only)";
         return false;  
